@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e6f9ec; /* light green */
+    color: #234d20;
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
+    background: #7be495; /* medium light green */
+    color: #234d20;
     padding: 10px 0;
     text-align: center;
 }
@@ -20,14 +21,41 @@ h1 {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    background: #ffffffcc;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #baf2bb55;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 footer {
-    background: #35424a;
-    color: #ffffff;
+    background: #7be495;
+    color: #234d20;
     text-align: center;
     padding: 10px 0;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+button, input[type="submit"] {
+    background-color: #baf2bb;
+    color: #234d20;
+    border: 1px solid #7be495;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #7be495;
+}
+
+a {
+    color: #234d20;
+    text-decoration: underline;
+}
+a:hover {
+    color: #7be495;
 }
