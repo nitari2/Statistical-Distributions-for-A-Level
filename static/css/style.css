@@ -59,3 +59,45 @@ a {
 a:hover {
     color: #7be495;
 }
+
+/* Navigation bar styles */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.subtitle-row {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: 24px 0;
+}
+.subtitle-row h2 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #234d20;
+    background: #e6f9ec;
+    padding: 8px 16px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px #baf2bb33;
+}
